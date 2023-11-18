@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner{
+    background: url(./images/countryside-woman-holding-plant-leaves.png);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+}
+.navbar{
+    background: #1E5128;
+    width: 100%;
+    padding: 15px;
+    height: 80px;
+    position: fixed;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+}
+.navbar ul{
+    margin-left: 750px;
+    margin-top: 50px;
+    gap: 80px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.navbar ul li a:hover{
+    position: relative;
+    border: 2px solid white;
+    background: transparent;
+    padding: 9px;
+}
+.navbar .logo{
+    margin-top: -60px;
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+    text-indent: -60px;
+}
+.col{
+    margin-top: -550px;
+    margin-left: 100px;
+}
+.col h3{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col h3 span{
+    color: #668000;
+}
+.col p{
+    color: white;
+    font-size: 20px;
+}
+.col button{
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 34px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+}
+.col button:hover{
+    background: #668000;
+    color: #fff;
+}
+/*About*/
+.about{
+    margin-top: 350px;
+}
+.about h3{
+    font-size: 25px;
+    color: #1E5128;
+    margin-left: 800px;
+}
+.about p{
+    color: black;
+    margin-top: 110px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+.side img{
+    margin-left: 1100px;
+    margin-top: -450px;
+
+}
