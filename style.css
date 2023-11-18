@@ -3,30 +3,42 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 .banner{
     background: url(./images/countryside-woman-holding-plant-leaves.png);
+    background-color: rgba(30, 30, 30, 0.60);
     width: 100%;
-    height: 110vh;
+    height: 90vh;
     background-size: cover;
 }
+
+/* .banner::before{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 30, 30, 0.60);
+} */
+
 .navbar{
     background: #1E5128;
     width: 100%;
     padding: 15px;
-    height: 80px;
-    position: fixed;
+    height: 5vh;
 
 }
 .navbar ul{
     display: flex;
     list-style: none;
-    font-size: 15px;
+    font-size: 14px;
 }
 .navbar ul{
-    margin-left: 750px;
-    margin-top: 50px;
-    gap: 80px;
-    text-transform: uppercase;
+    margin-left: 600px;
+    gap: 60px;
 }
 .navbar ul li a{
     text-decoration: none;
@@ -40,15 +52,15 @@
     padding: 9px;
 }
 .navbar .logo{
-    margin-top: -60px;
+    margin-top: -20px;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 150px;
     text-indent: -60px;
 }
 .col{
-    margin-top: -550px;
-    margin-left: 100px;
+    margin-left: 50px;
+    padding-top: 110px;
 }
 .col h3{
     font-size: 45px;
@@ -62,19 +74,20 @@
 .col p{
     color: white;
     font-size: 20px;
+    padding-top: 20px;
 }
 .col button{
-    margin-top: 20px;
+    margin-top: 40px;
     background: transparent;
     border: 2px solid #fff;
     border-radius: 34px;
     color: #fff;
     cursor: pointer;
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 14px;
 }
 .col button:hover{
-    background: #668000;
+    /* background: #668000; */
     color: #fff;
 }
 /*About*/
